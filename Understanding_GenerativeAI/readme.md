@@ -6,9 +6,9 @@
 
 # Difference Between AI vs Generative AI 🤖
 
-**AI (Artificial Intelligence)**: AI is a broad field that involves creating systems that can perform tasks that would typically require human intelligence, such as problem-solving, learning, decision-making, and pattern recognition. AI can be applied to a wide range of tasks, from simple data analysis to complex reasoning.
+- **AI (Artificial Intelligence)**: AI is a broad field that involves creating systems that can perform tasks that would typically require human intelligence, such as problem-solving, learning, decision-making, and pattern recognition. AI can be applied to a wide range of tasks, from simple data analysis to complex reasoning.
 
-**Generative AI:** Generative AI is a subset of AI that focuses specifically on creating new content. It learns from existing data and generates new instances (like text, images, etc.) that resemble the original data. In contrast to traditional AI, which focuses on classification or prediction tasks, generative AI focuses on creating something novel.
+- **Generative AI:** Generative AI is a subset of AI that focuses specifically on creating new content. It learns from existing data and generates new instances (like text, images, etc.) that resemble the original data. In contrast to traditional AI, which focuses on classification or prediction tasks, generative AI focuses on creating something novel.
 
 # How Does Generative AI Work?
 Generative AI works by learning from large datasets using machine learning algorithms, especially deep learning models like neural networks. The most common approach used in generative AI is based on two types of networks:
