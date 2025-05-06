@@ -13,9 +13,9 @@
 # How Does Generative AI Work?
 Generative AI works by learning from large datasets using machine learning algorithms, especially deep learning models like neural networks. The most common approach used in generative AI is based on two types of networks:
 
-**1) Generative Adversarial Networks (GANs)**: These consist of two neural networks—a generator and a discriminator—that work in opposition. The generator creates new data, and the discriminator evaluates whether the generated data is real (from the training dataset) or fake. Over time, the generator improves its ability to create realistic data.
+- **1) Generative Adversarial Networks (GANs)**: These consist of two neural networks—a generator and a discriminator—that work in opposition. The generator creates new data, and the discriminator evaluates whether the generated data is real (from the training dataset) or fake. Over time, the generator improves its ability to create realistic data.
 
-**2) Variational Autoencoders (VAEs)**: These are another type of generative model that learns to encode data into a lower-dimensional space and then decode it back into the original format. They are often used for generating images or other types of data.
+- **2) Variational Autoencoders (VAEs)**: These are another type of generative model that learns to encode data into a lower-dimensional space and then decode it back into the original format. They are often used for generating images or other types of data.
 
 Generative models are trained on a large corpus of data (text, images, etc.), and during training, they learn the underlying patterns. Once trained, these models can generate new, previously unseen content based on the patterns they've learned.
 
