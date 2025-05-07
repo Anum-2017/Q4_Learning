@@ -31,7 +31,8 @@ FastAPI is a powerful, easy-to-use framework perfect for creating high-performan
 ## ▶️ Code Example
 ![code](https://github.com/user-attachments/assets/78859a6e-efba-4dd6-9216-4e4d18ad78ca)
 
-🖥️ Output
+## 🖥️ Output
+
 When you run the FastAPI app and visit http://127.0.0.1:8000/, you'll see:
 
 <img width="235" alt="output" src="https://github.com/user-attachments/assets/0a8a17f7-d222-44cb-a6fd-0c43d8e97e19" />
