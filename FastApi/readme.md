@@ -31,7 +31,7 @@ uv init fastdca-p1
 cd fastdca-p1
 ```
 
-🐍 Step 3: Create and Activate Virtual Environment
+## 🐍 Step 3: Create and Activate Virtual Environment
 
 On macOS/Linux:
 ```bash
@@ -45,7 +45,7 @@ uv venv
 .venv\Scripts\activate
 ```
 
-📦 Step 4: Install Dependencies
+## 📦 Step 4: Install Dependencies
 Install FastAPI and essential libraries:
 
 ```bash
