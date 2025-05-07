@@ -10,25 +10,69 @@ FastAPI is a web framework that helps developers build APIs quickly. It leverage
 
 ---
 
-# 🚀 FastDCA-P1 Project Setup
+# 🚀 Project Setup
 
 Follow the instructions below to set up your development environment and get started with FastAPI.
 
 ---
 
 ## ✅ Step 1: Check Python Version
-
 Make sure Python is installed on your system:
 
+```bash
 python --version
+```
 
 ## 📁 Step 2: Create Project Folder
 Use uv to initialize and navigate to your project folder:
 
+```bash
 uv init fastdca-p1
 cd fastdca-p1
+```
 
+🐍 Step 3: Create and Activate Virtual Environment
 
+On macOS/Linux:
+```bash
+uv venv
+source .venv/bin/activate
+```
+
+On Windows:
+```bash
+uv venv
+.venv\Scripts\activate
+```
+
+📦 Step 4: Install Dependencies
+Install FastAPI and essential libraries:
+
+```bash
+uv add "fastapi[standard]"
+```
+
+This installs:
+
+- `fastapi`: The web framework.
+- `uvicorn`: The ASGI server to run the app.
+- `httpx`: An HTTP client for testing FastAPI endpoints.
+
+🧪 Step 5: Add Testing Tools
+Install development dependencies for testing:
+
+```bash
+uv add --dev pytest pytest-asyncio
+```
+
+🚀 Run Server
+Run the server with the following command in the terminal:
+
+```bash
+fastapi dev main.py
+```
+
+---
 
 # 🌟 Key Features of FastAPI
 
