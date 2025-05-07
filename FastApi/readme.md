@@ -25,3 +25,13 @@ FastAPI is a web framework that helps developers build APIs quickly. It leverage
 # Conclusion
 
 FastAPI is a powerful, easy-to-use framework perfect for creating high-performance, secure, and well-documented APIs. It is well-suited for developers looking to build APIs quickly with minimal overhead, especially for modern asynchronous web applications.
+
+# 📸 Screenshot and Output
+
+## ▶️ Code Example
+![code](https://github.com/user-attachments/assets/78859a6e-efba-4dd6-9216-4e4d18ad78ca)
+
+🖥️ Output
+When you run the FastAPI app and visit http://127.0.0.1:8000/, you'll see:
+
+<img width="235" alt="output" src="https://github.com/user-attachments/assets/0a8a17f7-d222-44cb-a6fd-0c43d8e97e19" />
