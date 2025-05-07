@@ -1,12 +1,37 @@
-# Introduction to FastAPI
+# 📘 Introduction to FastAPI
 
 **FastAPI** is a modern Python web framework for building APIs. It is fast, easy to use, and built on top of Starlette and Pydantic for web handling and data validation. FastAPI uses Python's type hints for automatic validation, serialization, and documentation generation, making it an ideal choice for creating efficient, high-performance RESTful APIs.
 
-# What is FastAPI?
+--- 
+
+# ❓ What is FastAPI?
 
 FastAPI is a web framework that helps developers build APIs quickly. It leverages Python's type annotations to automatically handle data validation and generate documentation. Based on the ASGI specification, FastAPI is highly efficient, especially for asynchronous applications, and it auto-generates interactive API docs with tools like Swagger UI and ReDoc.
 
-# Key Features of FastAPI
+---
+
+# 🚀 FastDCA-P1 Project Setup
+
+Follow the instructions below to set up your development environment and get started with FastAPI.
+
+---
+
+## ✅ Step 1: Check Python Version
+
+Make sure Python is installed on your system:
+
+```bash
+python --version
+📁 Step 2: Create Project Folder
+Use uv to initialize and navigate to your project folder:
+
+bash
+Copy
+Edit
+uv init fastdca-p1
+cd fastdca-p1
+
+# 🌟 Key Features of FastAPI
 
 - **Fast Performance:** FastAPI handles requests faster than many other frameworks, competing with Go and Node.js in speed.
 
@@ -22,7 +47,7 @@ FastAPI is a web framework that helps developers build APIs quickly. It leverage
 
 - **Extensibility:** Easy to customize and extend with middleware and third-party packages.
 
-# Conclusion
+# 🧾 Conclusion
 
 FastAPI is a powerful, easy-to-use framework perfect for creating high-performance, secure, and well-documented APIs. It is well-suited for developers looking to build APIs quickly with minimal overhead, especially for modern asynchronous web applications.
 
