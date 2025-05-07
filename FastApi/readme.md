@@ -20,16 +20,15 @@ Follow the instructions below to set up your development environment and get sta
 
 Make sure Python is installed on your system:
 
-```bash
 python --version
-📁 Step 2: Create Project Folder
+
+## 📁 Step 2: Create Project Folder
 Use uv to initialize and navigate to your project folder:
 
-bash
-Copy
-Edit
 uv init fastdca-p1
 cd fastdca-p1
+
+
 
 # 🌟 Key Features of FastAPI
 
