@@ -12,15 +12,15 @@ FastAPI is a web framework that helps developers build APIs quickly. It leverage
 
 - **Automatic Data Validation:** Uses Python type hints and Pydantic to ensure correct data input and output.
 
-**Auto API Documentation:** Instantly generates interactive documentation with Swagger UI and ReDoc.
+- **Auto API Documentation:** Instantly generates interactive documentation with Swagger UI and ReDoc.
 
-**Easy Syntax:** Clear, concise syntax using Python’s type hints, reducing the need for additional documentation.
+- **Easy Syntax:** Clear, concise syntax using Python’s type hints, reducing the need for additional documentation.
 
-**Asynchronous Support:** Fully supports async/await for efficient, non-blocking APIs.
+- **Asynchronous Support:** Fully supports async/await for efficient, non-blocking APIs.
 
-**Security:** Built-in support for OAuth2, JWT, and other authentication mechanisms.
+- **Security:** Built-in support for OAuth2, JWT, and other authentication mechanisms.
 
-**Extensibility:** Easy to customize and extend with middleware and third-party packages.
+- **Extensibility:** Easy to customize and extend with middleware and third-party packages.
 
 # Conclusion
 
