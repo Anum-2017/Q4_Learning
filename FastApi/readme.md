@@ -58,14 +58,14 @@ This installs:
 - `uvicorn`: The ASGI server to run the app.
 - `httpx`: An HTTP client for testing FastAPI endpoints.
 
-🧪 Step 5: Add Testing Tools
+## 🧪 Step 5: Add Testing Tools
 Install development dependencies for testing:
 
 ```bash
 uv add --dev pytest pytest-asyncio
 ```
 
-🚀 Run Server
+## 🚀 Run Server
 Run the server with the following command in the terminal:
 
 ```bash
