@@ -11,8 +11,21 @@
 
 # ❓ What is FastAPI?
 
-FastAPI is a web framework that helps developers build APIs quickly. It leverages Python's type annotations to automatically handle data validation and generate documentation. Based on the ASGI specification, FastAPI is highly efficient, especially for asynchronous applications, and it auto-generates interactive API docs with tools like Swagger UI and ReDoc.
+**FastAPI** is a web framework that helps developers build APIs quickly. It leverages Python's type annotations to automatically handle data validation and generate documentation. Based on the ASGI specification, FastAPI is highly efficient, especially for asynchronous applications, and it auto-generates interactive API docs with tools like Swagger UI and ReDoc.
 
+---
+
+# 🌟 What is UV?
+
+**UV** is a command-line tool that simplifies the setup of FastAPI projects. It automates tasks like creating project directories, setting up virtual environments, and installing dependencies, which helps speed up the development process.
+
+You might choose UV because it:
+- Saves time by automating project setup
+- Ensures consistency across multiple projects
+- Installs FastAPI and Uvicorn with minimal effort
+- Supports PEP 582 for easier and more modern dependency management
+
+It’s ideal for quickly getting started with FastAPI. However, if you require more control over your project structure and configuration, a manual setup might be more suitable.
 ---
 
 # 🚀 Project Setup
