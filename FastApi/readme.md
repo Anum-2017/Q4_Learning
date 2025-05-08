@@ -26,6 +26,7 @@ You might choose UV because it:
 - Supports PEP 582 for easier and more modern dependency management
 
 It’s ideal for quickly getting started with FastAPI. However, if you require more control over your project structure and configuration, a manual setup might be more suitable.
+
 ---
 
 # 🚀 Project Setup
