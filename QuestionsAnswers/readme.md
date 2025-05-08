@@ -1,24 +1,6 @@
-# 🚀 FastAPI Project by Anum
+# 🚀 FastAPI Project 
 
 This is a simple and beginner-friendly FastAPI project created by **Anum Kamal**. It demonstrates how to set up a basic REST API with FastAPI, including a root route and a dynamic route with optional query parameters.
-
----
-
-## 📁 Project Files
-
-```
-📦 fastapi-anum/
- ┣ 📄 main.py
- ┗ 📄 README.md
-```
-
----
-
-## 🛠️ Technologies Used
-
-- **Python 3.10+**
-- **FastAPI**
-- **Uvicorn** (ASGI server)
 
 ---
 
@@ -127,30 +109,6 @@ def read_item(item_id: int, q: str | None = None):
 - Supports path and query parameters
 - Built-in documentation with Swagger and ReDoc
 - Auto-reload for development
-
----
-
-## 🧠 About the Author
-
-**Anum Kamal**  
-Software Engineer | Backend Developer  
-Passionate about learning Python, FastAPI, and building useful tools.  
-Always exploring the world of APIs and automation. 🚀
-
----
-
-## 📌 Notes
-
-- FastAPI is type-safe and auto-generates OpenAPI schemas.
-- The `q` parameter in `/items/{item_id}` is optional.
-- You can build upon this to include more features like POST requests, database integration, etc.
-
----
-
-## 📄 License
-
-This project is released under the MIT License.
-You are free to use, modify, and distribute this software.
 
 ---
 
