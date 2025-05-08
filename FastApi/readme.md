@@ -123,3 +123,7 @@ FastAPI is a powerful, easy-to-use framework perfect for creating high-performan
 When you run the FastAPI app and visit http://127.0.0.1:8000/, you'll see:
 
 <img width="235" alt="output" src="https://github.com/user-attachments/assets/0a8a17f7-d222-44cb-a6fd-0c43d8e97e19" />
+
+---
+
+Blog Link : https://medium.com/@anumriz2017/building-your-first-api-with-fastapi-a-beginners-guide-5745433b89ae
