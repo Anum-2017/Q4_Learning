@@ -77,3 +77,7 @@ Generative AI helps automate design tasks, such as creating logos, developing we
 By generating customized learning materials 📚 or creating adaptive tutoring systems, generative AI is enhancing personalized education experiences.
 
 Through its ability to generate diverse, realistic content and data, generative AI is a key driver of innovation 💡, boosting efficiency ⚡, and unlocking limitless creative potential 🚀.
+
+---
+
+**Blog Link** : https://medium.com/@anumriz2017/unlocking-creativity-exploring-the-world-of-generative-ai-13c128bca420
