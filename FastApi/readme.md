@@ -52,13 +52,13 @@ cd fastdca-p1
 
 ## 🐍 Step 3: Create and Activate Virtual Environment
 
-On macOS/Linux:
+**On macOS/Linux:**
 ```bash
 uv venv
 source .venv/bin/activate
 ```
 
-On Windows:
+**On Windows:**
 ```bash
 uv venv
 .venv\Scripts\activate
