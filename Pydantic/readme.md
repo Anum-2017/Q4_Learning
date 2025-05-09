@@ -136,7 +136,7 @@ Pydantic supports **nested models**, making it perfect for representing complex 
 
 Create a new file named `pydantic_example_2.py`:
 
-```
+```python
 import json
 from pydantic import BaseModel, EmailStr
 
