@@ -195,8 +195,6 @@ uv run python pydantic_example_2.py
 
 ## ✨ 3: Custom Validators in Pydantic
 
-## ✨ Custom Validators in Pydantic
-
 We’ll improve our model by adding a **custom validator** that checks the user’s name is at least 2 characters long — ensuring better data quality right from the start. 🛡️🔤
 
 ### 📁 File: `pydantic_example_3.py`
