@@ -110,6 +110,7 @@ id
 ```
 
 **🧠 Key Takeaways:**
+
 ✅ You define models by inheriting from BaseModel.
 
 🔍 Fields are automatically validated based on their type annotations.
