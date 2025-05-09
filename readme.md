@@ -40,6 +40,3 @@ If you find this helpful or just want to follow my journey, feel free to connect
 
 Let’s grow, learn, and build together. 🌱
 
----
-
-> “The beautiful thing about learning is that nobody can take it away from you.” – B.B. King
