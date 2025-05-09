@@ -259,6 +259,6 @@ name
 
 **Cleaner Models:** Custom validators allow you to enforce business rules and maintain data integrity within your models.
 
-------
+---
 
 
