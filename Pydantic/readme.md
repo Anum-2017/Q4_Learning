@@ -118,15 +118,15 @@ id
     For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
 ```
 
-**🧠 Key Takeaways:**
+**Key Takeaways:**
 
-✅ You define models by inheriting from BaseModel.
+- You define models by inheriting from BaseModel.
 
-🔍 Fields are automatically validated based on their type annotations.
+- Fields are automatically validated based on their type annotations.
 
-🚫 Invalid data raises ValidationError with detailed messages.
+- Invalid data raises ValidationError with detailed messages.
 
-📤 Use .model_dump() to convert the model to a dictionary for serialization.
+- Use .model_dump() to convert the model to a dictionary for serialization.
 
 ---
 
