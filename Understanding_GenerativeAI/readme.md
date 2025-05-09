@@ -79,5 +79,8 @@ By generating customized learning materials 📚 or creating adaptive tutoring s
 Through its ability to generate diverse, realistic content and data, generative AI is a key driver of innovation 💡, boosting efficiency ⚡, and unlocking limitless creative potential 🚀.
 
 ---
+## 📝 Medium Blog
 
-**Blog Link** : https://medium.com/@anumriz2017/unlocking-creativity-exploring-the-world-of-generative-ai-13c128bca420
+📖 Read the complete tutorial on Medium here:  
+👉 [🌐 Unlocking Creativity: Exploring the World of Generative AI 🌐](https://medium.com/@anumriz2017/unlocking-creativity-exploring-the-world-of-generative-ai-13c128bca420)
+
