@@ -56,4 +56,17 @@ Pydantic is widely adopted in modern Python frameworks like **FastAPI** for pars
 
 ---
 
+## 🛠️ Step 1: Getting Started with Pydantic
+
+Let’s explore Pydantic with examples before integrating it into a FastAPI app.
+
+You can take the last step code as the base or **quickly set up a new project** using the following commands:
+
+```bash
+uv init fastdca_p1
+cd fastdca_p1
+uv venv
+source .venv/bin/activate
+uv add "fastapi[standard]"
+
 
