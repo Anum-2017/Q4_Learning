@@ -134,7 +134,7 @@ id
 
 Pydantic supports **nested models**, making it perfect for representing complex data structures like JSON objects with multiple layers.
 
-Create a new file named `pydantic_example_2.py` and add the following code:
+Create a new file named `pydantic_example_2.py`:
 
 ```
 from pydantic import BaseModel, EmailStr
@@ -197,7 +197,7 @@ uv run python pydantic_example_2.py
 
 We’ll improve our model by adding a **custom validator** that checks the user’s name is at least 2 characters long — ensuring better data quality right from the start. 🛡️🔤
 
-### 📁 File: `pydantic_example_3.py`
+Create a new file again named `pydantic_example_3.py`:
 
 ```python
 from pydantic import BaseModel, EmailStr, ValidationError, field_validator
