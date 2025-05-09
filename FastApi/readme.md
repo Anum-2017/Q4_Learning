@@ -126,4 +126,7 @@ When you run the FastAPI app and visit http://127.0.0.1:8000/, you'll see:
 
 ---
 
-Blog Link : https://medium.com/@anumriz2017/building-your-first-api-with-fastapi-a-beginners-guide-5745433b89ae
+## 📝 Medium Blog
+
+📖 Read the complete tutorial on Medium here:  
+👉 [Building Your First API with FastAPI: A Beginner’s Guide](https://medium.com/@anumriz2017/building-your-first-api-with-fastapi-a-beginners-guide-5745433b89ae)
