@@ -70,7 +70,7 @@ source .venv/bin/activate
 uv add "fastapi[standard]"
 ```
 
-## 📗 Step 2: Basic Pydantic Model
+## 📗 1: Basic Pydantic Model
 
 Let’s start by understanding how to define and use a simple Pydantic model.
 
@@ -119,6 +119,46 @@ id
 
 📤 Use .model_dump() to convert the model to a dictionary for serialization.
 
+---
+
+## 📘 2: Nested Pydantic Models
+
+Pydantic supports **nested models**, making it perfect for representing complex data structures like JSON objects with multiple layers.
+
+Create a new file named `pydantic_example_2.py` and add the following code:
+
+```
+from pydantic import BaseModel, EmailStr
+
+# Define a nested model
+
+
+class Address(BaseModel):
+    street: str
+    city: str
+    zip_code: str
+
+
+class UserWithAddress(BaseModel):
+    id: int
+    name: str
+    email: EmailStr  # Built-in validator for email format
+    addresses: list[Address]  # List of nested Address models
+
+
+# Valid data with nested structure
+user_data = {
+    "id": 2,
+    "name": "Bob",
+    "email": "bob@example.com",
+    "addresses": [
+        {"street": "123 Main St", "city": "New York", "zip_code": "10001"},
+        {"street": "456 Oak Ave", "city": "Los Angeles", "zip_code": "90001"},
+    ],
+}
+user = UserWithAddress.model_validate(user_data)
+print(user.model_dump())
+```
 
 
 
