@@ -356,5 +356,24 @@ To run the server, use the following command:
 ```
 fastapi dev main.py
 ```
+<img width="682" alt="Screenshot 2025-05-09 204016" src="https://github.com/user-attachments/assets/9891bc31-6c98-4ba4-aaaa-111a78b2590f" />
 
-📤 Output
+```
+    server   Server started at http://127.0.0.1:8000
+```
+    
+**📤 Output**
+
+<img width="487" alt="Screenshot 2025-05-09 204407" src="https://github.com/user-attachments/assets/2fb7224f-5002-42f6-834f-d537685795b2" />
+
+```
+server   Documentation at http://127.0.0.1:8000/docs
+```
+
+**📤 Output**
+
+<img width="883" alt="Screenshot 2025-05-09 204655" src="https://github.com/user-attachments/assets/d38daa58-e566-469a-89a3-6296184c2c9d" />
+
+
+
+
