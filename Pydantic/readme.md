@@ -68,5 +68,3 @@ cd fastdca_p1
 uv venv
 source .venv/bin/activate
 uv add "fastapi[standard]"
-
-
