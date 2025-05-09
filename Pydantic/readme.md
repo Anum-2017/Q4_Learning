@@ -98,16 +98,8 @@ try:
 except ValidationError as e:
     print(e)
 ```
+📤 Output
 
-### ▶️ Run the Script
-
-Once your environment is activated and you're in the project directory, run:
-
-```bash
-uv run python pydantic_example_1.py
-```
-
-🖨️ Output 
 ```
 id=1 name='Alice' email='alice@example.com' age=25
 {'id': 1, 'name': 'Alice', 'email': 'alice@example.com', 'age': 25}
@@ -116,3 +108,14 @@ id
   Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='not_an_int', input_type=str]
     For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
 ```
+
+**🧠 Key Takeaways:**
+✅ You define models by inheriting from BaseModel.
+🔍 Fields are automatically validated based on their type annotations.
+🚫 Invalid data raises ValidationError with detailed messages.
+📤 Use .model_dump() to convert the model to a dictionary for serialization.
+
+
+
+
+
