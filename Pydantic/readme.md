@@ -261,4 +261,14 @@ name
 
 ---
 
+## Why Pydantic for DACA?
 
+Pydantic is essential for DACA due to the following reasons:
+
+- **Data Integrity:** Ensures that the incoming user data and agent responses are properly validated and type-safe.
+
+- **Complex Workflows:** Supports nested models to handle intricate AI-driven scenarios, such as user messages with metadata and agent responses with context.
+
+- **Serialization:** Effortlessly converts models into JSON format for API responses.
+
+- **Error Handling:** Offers detailed validation errors, making debugging in distributed systems more efficient.
