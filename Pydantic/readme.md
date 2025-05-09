@@ -97,3 +97,14 @@ try:
     invalid_user = User(id="not_an_int", name="Bob", email="bob@example.com")
 except ValidationError as e:
     print(e)
+```
+
+🖨️ Output 
+```
+id=1 name='Alice' email='alice@example.com' age=25
+{'id': 1, 'name': 'Alice', 'email': 'alice@example.com', 'age': 25}
+1 validation error for User
+id
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='not_an_int', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+```
