@@ -100,6 +100,7 @@ except ValidationError as e:
 ```
 
 **Run the Script**
+
 To run the script, use the following command:
 
 ```
