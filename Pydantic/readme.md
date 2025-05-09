@@ -68,3 +68,32 @@ cd fastdca_p1
 uv venv
 source .venv/bin/activate
 uv add "fastapi[standard]"
+```
+
+## 📗 Step 2: Basic Pydantic Model
+
+Let’s start by understanding how to define and use a simple Pydantic model.
+
+Create a file named `pydantic_example_1.py`:
+
+```python
+from pydantic import BaseModel, ValidationError
+
+# Define a simple model
+class User(BaseModel):
+    id: int
+    name: str
+    email: str
+    age: int | None = None  # Optional field with default None
+
+# Valid data
+user_data = {"id": 1, "name": "Alice", "email": "alice@example.com", "age": 25}
+user = User(**user_data)
+print(user)  
+print(user.model_dump())  
+
+# Invalid data (will raise an error)
+try:
+    invalid_user = User(id="not_an_int", name="Bob", email="bob@example.com")
+except ValidationError as e:
+    print(e)
