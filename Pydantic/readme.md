@@ -1,6 +1,6 @@
 # 📦 Pydantic Overview
 
-Pydantic is a powerful **data validation and settings management** library for Python, built on top of type annotations. It enables you to define **data models using Python classes**, with automatic validation and parsing of input data into the correct types.
+**Pydantic** is a powerful **data validation and settings management** library for Python, built on top of type annotations. It enables you to define **data models using Python classes**, with automatic validation and parsing of input data into the correct types.
 
 It is especially popular in the Python web ecosystem — particularly in **FastAPI** — for simplifying how developers manage incoming request data.
 
