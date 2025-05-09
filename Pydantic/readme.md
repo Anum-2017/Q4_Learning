@@ -168,11 +168,28 @@ user_data = {
 user = UserWithAddress.model_validate(user_data)
 print(user.model_dump())
 ```
+
+**Run the Script**
+
+To run the script, use the following command:
+
+```
+uv run python pydantic_example_2.py
+```
+
 📤 Output
 
 ```
 {'id': 2, 'name': 'Bob', 'email': 'bob@example.com', 'addresses': [{'street': '123 Main St', 'city': 'New York', 'zip_code': '10001'}, {'street': '456 Oak Ave', 'city': 'Los Angeles', 'zip_code': '90001'}]}
 ```
+
+**Key Concepts**
+
+Nested Models: You can easily define models inside other models (like Address inside UserWithAddress).
+
+List of Models: The addresses field is a list of Address models.
+
+Data Validation: Pydantic automatically validates the data types and raises an error if the data doesn't match the expected structure.
 
 
 
