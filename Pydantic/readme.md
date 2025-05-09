@@ -1,4 +1,4 @@
-# 📦 Pydantic Overview
+# 📚 Pydantic Overview
 
 **Pydantic** is a powerful Python library used for **data validation** and **settings management** using Python type annotations. It enforces type hints at runtime and provides user-friendly error messages.
 
@@ -8,10 +8,10 @@ Pydantic is widely adopted in modern Python frameworks like **FastAPI** for pars
 
 ## ✨ Key Features
 
-- ✅ **Data Validation**  
+- 🛡️ **Data Validation**  
   Automatically validates input data against defined Python types and structures.
 
-- 📦 **Data Parsing**  
+- 🔄 **Data Parsing**  
   Parses input data into Python objects, including nested models.
 
 - 🧾 **Type Hints Enforcement**  
@@ -183,13 +183,82 @@ uv run python pydantic_example_2.py
 {'id': 2, 'name': 'Bob', 'email': 'bob@example.com', 'addresses': [{'street': '123 Main St', 'city': 'New York', 'zip_code': '10001'}, {'street': '456 Oak Ave', 'city': 'Los Angeles', 'zip_code': '90001'}]}
 ```
 
-**Key Concepts:**
+**Key Takeaways::**
 
-- **Nested Models:** You can easily define models inside other models (like Address inside UserWithAddress).
+- **Nested Models:** You can define models inside other models, such as Address within UserWithAddress.
 
-- **List of Models:** The addresses field is a list of Address models.
+- **List of Models:** The addresses field is a list of Address models, showcasing how to handle lists of complex data.
 
-- **Data Validation:** Pydantic automatically validates the data types and raises an error if the data doesn't match the expected structure.
+- **Data Validation:** Pydantic validates the structure of the data, ensuring that it matches the model definitions. If the data doesn’t match the expected structure, Pydantic will raise a validation error.
 
+---
+
+## ✨ 3: Custom Validators in Pydantic
+
+## ✨ Custom Validators in Pydantic
+
+We’ll improve our model by adding a **custom validator** that checks the user’s name is at least 2 characters long — ensuring better data quality right from the start. 🛡️🔤
+
+### 📁 File: `pydantic_example_3.py`
+
+```python
+from pydantic import BaseModel, EmailStr, ValidationError, field_validator
+from typing import List
+
+class Address(BaseModel):
+    street: str
+    city: str
+    zip_code: str
+
+class UserWithAddress(BaseModel):
+    id: int
+    name: str
+    email: EmailStr
+    addresses: List[Address]
+
+    @field_validator("name")
+    @classmethod
+    def name_must_be_at_least_two_chars(cls, v):
+        if len(v) < 2:
+            raise ValueError("Name must be at least 2 characters long")
+        return v
+
+# Test with invalid data
+try:
+    invalid_user = UserWithAddress(
+        id=3,
+        name="A",  # Too short
+        email="charlie@example.com",
+        addresses=[{"street": "789 Pine Rd", "city": "Chicago", "zip_code": "60601"}],
+    )
+except ValidationError as e:
+    print(e)
+```
+
+**Run the Script**
+
+To run the script, use the following command:
+
+```
+uv run python pydantic_example_3.py
+```
+
+📤 Output
+
+```
+1 validation error for UserWithAddress
+name
+  Value error, Name must be at least 2 characters long [type=value_error, input_value='A', input_type=str]
+```
+
+**Key Takeaways:**
+
+**Custom Validators:** You can add custom validation logic to fields using the @field_validator decorator. In this case, we ensured that the user's name is at least 2 characters long.
+
+**Error Handling:** If the custom validator condition is not met, Pydantic raises a ValidationError, providing clear feedback about the issue.
+
+**Cleaner Models:** Custom validators allow you to enforce business rules and maintain data integrity within your models.
+
+------
 
 
