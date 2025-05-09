@@ -99,6 +99,14 @@ except ValidationError as e:
     print(e)
 ```
 
+### ▶️ Run the Script
+
+Once your environment is activated and you're in the project directory, run:
+
+```bash
+uv run python pydantic_example_1.py
+```
+
 🖨️ Output 
 ```
 id=1 name='Alice' email='alice@example.com' age=25
