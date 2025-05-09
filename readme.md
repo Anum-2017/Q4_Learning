@@ -1,6 +1,7 @@
 # 📘 Q4_Learning – Knowledge Sharing Hub
 
-Welcome to my Quarter 4 learning journey!  
+## Welcome to my Quarter 4 learning journey!  
+
 This repository is where I explore new technologies, uncover fresh concepts, and document my discoveries along the way.
 
 I believe learning should be shared — so others can benefit, grow, and get inspired too. Whether it's a technical topic I've studied, a blog I've written, or study notes I’ve compiled, you’ll find it all here in a simplified, well-organized format.
