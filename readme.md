@@ -1,4 +1,4 @@
-# 📘 Q4_Learning – Knowledge Sharing Hub
+# 📘 Quarter 4 Learning – Knowledge Sharing Hub
 
 ## Welcome to my Quarter 4 learning journey!  
 
