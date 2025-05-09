@@ -111,8 +111,11 @@ id
 
 **🧠 Key Takeaways:**
 ✅ You define models by inheriting from BaseModel.
+
 🔍 Fields are automatically validated based on their type annotations.
+
 🚫 Invalid data raises ValidationError with detailed messages.
+
 📤 Use .model_dump() to convert the model to a dictionary for serialization.
 
 
