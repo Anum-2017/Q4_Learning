@@ -98,6 +98,14 @@ try:
 except ValidationError as e:
     print(e)
 ```
+
+**Run the Script**
+To run the script, use the following command:
+
+```
+uv run python pydantic_example_1.py
+```
+
 📤 Output
 
 ```
@@ -159,7 +167,11 @@ user_data = {
 user = UserWithAddress.model_validate(user_data)
 print(user.model_dump())
 ```
+📤 Output
 
+```
+{'id': 2, 'name': 'Bob', 'email': 'bob@example.com', 'addresses': [{'street': '123 Main St', 'city': 'New York', 'zip_code': '10001'}, {'street': '456 Oak Ave', 'city': 'Los Angeles', 'zip_code': '90001'}]}
+```
 
 
 
