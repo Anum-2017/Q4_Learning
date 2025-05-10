@@ -112,4 +112,74 @@ async def update_item(
 ```
 ---
 
+## ▶️ Run the Server
+To start the FastAPI server:
+
+```bash
+fastapi dev main.py
+```
+
+Open your browser and go to:
+
+```bash
+http://localhost:8000/docs
+```
+
+This will launch Swagger UI, where you can interact with and test your API endpoints easily.
+
+---
+
+## 🔗 API Endpoints
+
+### GET /items/{item_id}  
+Fetch a single item by ID.
+
+**Path parameter:**
+- `item_id` (integer ≥ 1)
+
+---
+
+### GET /items/  
+Fetch items with optional filters.
+
+**Query parameters:**
+- `q`: optional search term (3–50 characters)  
+- `skip`: number of items to skip (default: 0)  
+- `limit`: max items to return (default: 10)
+
+---
+
+### PUT /items/validated/{item_id}  
+Update an item.
+
+**Path parameter:**
+- `item_id` (integer ≥ 1)
+
+**Query parameter:**
+- `q`: optional search keyword
+
+**Body:**
+- `name`: item name (string)  
+- `description`: optional item description (string)  
+- `price`: item price (float)
+
+--- 
+
+## 📌 Key Points to Keep in Mind
+
+- Use `Path()` to validate path parameters (e.g., `item_id`).
+- Use `Query()` to validate query parameters (e.g., `q`, `skip`, `limit`).
+- Both `Path()` and `Query()` support powerful validation features:
+  - Constraints like `ge` (greater than or equal), `gt` (greater than), `le` (less than or equal), and `lt` (less than) for numerical values.
+  - String length validation with `min_length` and `max_length`.
+  - Pattern matching using `regex` or `pattern` to ensure input matches specific formats.
+  - Restrict possible values using `enum`.
+- FastAPI automatically validates the parameters based on the defined rules.
+- In case of validation errors, FastAPI will return a `422 Unprocessable Entity` status code with clear and detailed error information.
+
+---
+
+## 🏁 Conclusion
+
+FastAPI makes handling and validating API parameters straightforward with features like Path() and Query(). These tools ensure data integrity by enforcing rules like length, value constraints, and pattern matching. With automatic validation and clear error messages, FastAPI helps you build secure, reliable APIs with minimal effort.
 
