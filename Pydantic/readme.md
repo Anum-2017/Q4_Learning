@@ -390,6 +390,13 @@ server   Documentation at http://127.0.0.1:8000/docs
 
 Implementing Pydantic validation in your FastAPI application helps streamline data handling for DACA’s agentic AI workflows. This method promotes strong type enforcement and prevents common data issues, contributing to a stable and trustworthy system.
 
+---
+
+## 📝 Medium Blog
+
+📖 Read the complete tutorial on Medium here:  
+👉 [Pydantic: The Ultimate Data Validation Tool for Python APIs](https://medium.com/@anumriz2017/pydantic-the-ultimate-data-validation-tool-for-python-apis-730e45f2373e)
+
 
 
 
