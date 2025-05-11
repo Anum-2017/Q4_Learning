@@ -46,7 +46,7 @@ FastAPI supports custom dependencies for fetching objects, such as from a databa
 
 ---
 
-### **Why FastAPI? 🚀**
+## **Why FastAPI? 🚀**
 
 FastAPI makes it easy to work with Dependency Injection. It allows you to build robust and scalable APIs with minimal code, using Python's type hints to automatically validate inputs and generate documentation. The built-in Dependency Injection system is flexible and designed to support a wide range of use cases, from simple to complex scenarios.
 
@@ -54,11 +54,7 @@ With FastAPI, you can inject dependencies at the route level, making your code m
 
 ---
 
-### **Conclusion 🎉**
+## **Conclusion 🎉**
 
 FastAPI’s Dependency Injection system is a powerful tool for building clean and maintainable APIs. By using DI, you can decouple your components, make your code more modular, and simplify testing. FastAPI’s simplicity, combined with the flexibility of Dependency Injection, allows you to quickly create robust and scalable applications.
-
----
-
-Feel free to reach out if you have questions or need further clarification on Dependency Injection in FastAPI!
 
