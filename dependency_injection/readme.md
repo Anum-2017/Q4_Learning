@@ -4,11 +4,13 @@ This guide explores how to effectively use **Dependency Injection** in FastAPI, 
 
 ---
 
-### **What is Dependency Injection? 🛠️**
+## **What is Dependency Injection? 🛠️**
 
 **Dependency Injection (DI)** is a design pattern used to decouple components and manage dependencies more effectively. Instead of a component creating its dependencies internally, these dependencies are provided externally when the component is created or called.
 
-#### **Why Use Dependency Injection? 📈**
+--- 
+
+## **Why Use Dependency Injection? 📈**
 
 1. **Loose Coupling**: By decoupling components, DI reduces dependencies between them. This leads to more flexible and reusable code.
    
@@ -20,7 +22,7 @@ This guide explores how to effectively use **Dependency Injection** in FastAPI, 
 
 ---
 
-### **Key Concepts of Dependency Injection in FastAPI 🏗️**
+## **Key Concepts of Dependency Injection in FastAPI 🏗️**
 
 #### **1. Basic Dependency Injection**
 
