@@ -58,3 +58,10 @@ With FastAPI, you can inject dependencies at the route level, making your code m
 
 FastAPI’s Dependency Injection system is a powerful tool for building clean and maintainable APIs. By using DI, you can decouple your components, make your code more modular, and simplify testing. FastAPI’s simplicity, combined with the flexibility of Dependency Injection, allows you to quickly create robust and scalable applications.
 
+---
+
+## 📝 Medium Blog
+
+📖 Read the complete tutorial on Medium here:  
+
+👉 [Mastering Dependency Injection in FastAPI](https://medium.com/@anumriz2017/mastering-dependency-injection-in-fastapi-265bb9dcfbdd)
