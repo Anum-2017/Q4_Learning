@@ -75,7 +75,7 @@ This API helps you manage users and their assigned tasks with clean, simple endp
 This section visually walks you through how to use the Task Tracker API — from viewing the welcome message to creating users, managing tasks, and tracking their statuses. Each step includes reference images from Swagger UI to simplify your experience.
 
 ## 🔹Step 0: View the Welcome Message
- - Go to the root `/` GET endpoint
+ - Navigate to the root `http://127.0.0.1:8000/` GET endpoint
  - You will receive a welcome message confirming that the API is running:
 
 #### 📝 Welcome Message
@@ -84,14 +84,14 @@ This section visually walks you through how to use the Task Tracker API — from
 
 
 ## 🔹 Step 1: Access Swagger UI
- - Open the Swagger UI at http://127.0.0.1:8000/docs.
+ - Open the Swagger UI at `http://127.0.0.1:8000/docs`.
  - You can interact with the API documentation here to perform all tasks.
 
 <img width="959" alt="2" src="https://github.com/user-attachments/assets/c9b47c2b-3c0b-46f4-b840-be172ba73489" />
 
 
 ## 🔹 Step 2: Create a User
- - Go to /users/ POST endpoint in Swagger UI (/docs)
+ - Navigate to `/users/ POST` endpoint in Swagger UI (/docs)
  - Provide user_name and email
  - A new user_id will be generated
 
@@ -105,7 +105,7 @@ This section visually walks you through how to use the Task Tracker API — from
 
 
 ## 🔹 Step 3: Get the Created User
- - Go to /users/{user_id} GET endpoint.
+ - Navigate to `/users/{user_id}` GET endpoint.
  - Enter the same user_id.
  - You will see the user_name and email returned.
 
@@ -115,7 +115,7 @@ This section visually walks you through how to use the Task Tracker API — from
 
 
 ## 🔹 Step 4: Create a Task
- - Head over to the /tasks/ POST endpoint using the Swagger UI.
+ - Head over to the `/tasks/ POST` endpoint using the Swagger UI.
  - Enter the following details to create a task:
      - title: The name of the task
      - description (optional): What the task is about
@@ -134,13 +134,29 @@ This section visually walks you through how to use the Task Tracker API — from
 
 
 ## 🔹 Step 5: Get the Created Task
- - Go to /tasks/{task_id} GET endpoint.
+ - Navigate to `/tasks/{task_id}` GET endpoint.
  - Enter the task_id.
  - Task details will be displayed.
 
 #### Get_Task
 
 <img width="536" alt="8" src="https://github.com/user-attachments/assets/d60ba4ab-a03b-42d6-aa0d-5ca14db61856" />
+
+
+## 🔹 Step 6: Update Task Status
+ - Navigate to the `/tasks/{task_id}` PUT endpoint.
+ - Input the specific task_id of the task you want to update.
+ - Change the status field to reflect the current progress (e.g., from `in_progress` to `completed`).
+
+#### Update_Task_Status
+
+<img width="536" alt="9" src="https://github.com/user-attachments/assets/8b12875b-8f52-44f6-8ba4-9ed618203520" />
+
+#### Response_Update_Task_Status
+
+<img width="529" alt="10" src="https://github.com/user-attachments/assets/a1a43d70-1cba-411e-9885-1fbec46cd453" />
+
+
 
 
 
