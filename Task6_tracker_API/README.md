@@ -4,7 +4,6 @@ Welcome to the **Task Tracker API**, a lightweight backend solution built with *
 
 This API helps you manage users and their assigned tasks with clean, simple endpoints for creating, retrieving, and updating records.
 
----
 
 ## 📘 Project Summary
 
