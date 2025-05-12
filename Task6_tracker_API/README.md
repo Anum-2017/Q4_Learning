@@ -114,7 +114,7 @@ This section visually walks you through how to use the Task Tracker API — from
 <img width="530" alt="5" src="https://github.com/user-attachments/assets/c90f61ba-6b8e-4217-b561-073cf3ce2856" />
 
 
-## 🔹 Step 4: Add a New Task
+## 🔹 Step 4: Create a Task
  - Head over to the /tasks/ POST endpoint using the Swagger UI.
  - Enter the following details to create a task:
      - title: The name of the task
@@ -131,6 +131,16 @@ This section visually walks you through how to use the Task Tracker API — from
 #### Response_Task_Creation
 
 <img width="526" alt="7" src="https://github.com/user-attachments/assets/cede6d9a-f7be-43a0-9eef-956ca5b4a28e" />
+
+
+## 🔹 Step 5: Get the Created Task
+ - Go to /tasks/{task_id} GET endpoint.
+ - Enter the task_id.
+ - Task details will be displayed.
+
+#### Get_Task
+
+<img width="536" alt="8" src="https://github.com/user-attachments/assets/d60ba4ab-a03b-42d6-aa0d-5ca14db61856" />
 
 
 
