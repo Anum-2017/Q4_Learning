@@ -74,9 +74,9 @@ This API helps you manage users and their assigned tasks with clean, simple endp
 ## ℹ️ About This Section
 This section visually walks you through how to use the Task Tracker API — from viewing the welcome message to creating users, managing tasks, and tracking their statuses. Each step includes reference images from Swagger UI to simplify your experience.
 
-### 🔹 Step 0: View the Welcome Message
-- Go to the root `/` GET endpoint
-- You will receive a welcome message confirming that the API is running:
+## 🔹Step 0: View the Welcome Message
+ - Go to the root `/` GET endpoint
+ - You will receive a welcome message confirming that the API is running:
 
 #### 📝 Welcome Message
 
