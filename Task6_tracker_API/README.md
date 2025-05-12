@@ -67,6 +67,7 @@ This API helps you manage users and their assigned tasks with clean, simple endp
 | PUT         | `/tasks/{task_id}`           | Update the status of a task              |
 | GET         | `/users/{user_id}/tasks`     | List all tasks assigned to a user        |
 
+---
 
 # 🔄 Step-by-Step API Walkthrough (With Images)
 
