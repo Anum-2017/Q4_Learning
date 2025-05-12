@@ -67,3 +67,10 @@ This API helps you manage users and their assigned tasks with clean, simple endp
 | PUT         | `/tasks/{task_id}`           | Update the status of a task              |
 | GET         | `/users/{user_id}/tasks`     | List all tasks assigned to a user        |
 
+
+# 🔄 Step-by-Step API Walkthrough (With Images)
+
+## ℹ️ About This Section
+This section visually walks you through how to use the Task Tracker API — from viewing the welcome message to creating users, managing tasks, and tracking their statuses. Each step includes reference images from Swagger UI to simplify your experience.
+
+    
