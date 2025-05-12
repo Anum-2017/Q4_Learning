@@ -157,6 +157,42 @@ This section visually walks you through how to use the Task Tracker API — from
 <img width="529" alt="10" src="https://github.com/user-attachments/assets/a1a43d70-1cba-411e-9885-1fbec46cd453" />
 
 
+## 🔹 Step 7: Confirm Task Update
+ - Navigate to `/tasks/{task_id}` GET endpoint again.
+ - The updated status will be shown.
+
+#### After_Updating_Task_Get
+
+<img width="535" alt="11" src="https://github.com/user-attachments/assets/649a1549-0bfe-4b43-b007-6554e7221bac" />
+
+
+## 🔹 Step 8: Get All Tasks for a User
+ - Navigate to `/users/{user_id}/tasks` GET endpoint.
+ - Enter the user_id.
+ - All linked tasks will be shown.
+
+#### Getting_User_Task
+
+<img width="533" alt="12" src="https://github.com/user-attachments/assets/2cd387c1-40eb-4e1c-93a2-738c96b55d2b" />
+
+---
+
+##  🎯 Conclusion
+
+ With the Task Tracker API, you now have a simple and efficient way to:
+
+- 🧑‍💼 Manage Users – Easily create and retrieve user profiles.
+- 📋 Create and Track Tasks – Link tasks to users, assign due dates, and monitor their statuses.
+- 🔄 Update Progress – Change task statuses dynamically as progress is made.
+- 📋 Retrieve Linked Data – View all tasks associated with specific users in one place.
+
+All this can be done through the intuitive Swagger UI at http://127.0.0.1:8000/docs, making interaction smooth and beginner-friendly.
+
+🎯 Whether you're building a personal to-do app or a small team project manager, this API is your foundation for structured task management.
+
+## *Happy Tracking!* 🎯
+
+
 
 
 
