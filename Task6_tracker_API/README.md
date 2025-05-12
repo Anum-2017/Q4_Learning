@@ -112,11 +112,11 @@ This section visually walks you through how to use the Task Tracker API — from
 ## 🔹 Step 4: Create a Task
  - Head over to the `/tasks/ POST` endpoint using the Swagger UI.
  - Enter the following details to create a task:
-     - title: The name of the task
-     - description (optional): What the task is about
-     - due_date: When the task should be completed (today or later)
-     - user_id: The ID of the user the task belongs to
-     - status: Current state of the task (e.g., pending)
+     - **title:** The name of the task
+     - **description (optional)**: What the task is about
+     - **due_date:** When the task should be completed (today or later)
+     - **user_id:** The ID of the user the task belongs to
+     - **status:** Current state of the task (e.g., pending)
  - Once submitted, a new task_id will be automatically generated for you.
 
 #### Task_Creation
