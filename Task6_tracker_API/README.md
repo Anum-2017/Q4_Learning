@@ -90,6 +90,17 @@ This section visually walks you through how to use the Task Tracker API — from
 <img width="959" alt="2" src="https://github.com/user-attachments/assets/c9b47c2b-3c0b-46f4-b840-be172ba73489" />
 
 
+## 🔹 Step 1: Create a User
+ - Go to /users/ POST endpoint in Swagger UI (/docs)
+ - Provide user_name and email
+ - A new user_id will be generated
 
+#### CreateUser
+
+<img width="527" alt="3" src="https://github.com/user-attachments/assets/6a189d2e-bac8-4106-bce2-d1b1dbaa370f" />
+
+#### Response_CreateUser
+
+<img width="526" alt="4" src="https://github.com/user-attachments/assets/c670cdf3-e9a1-4df4-861c-731c337b6baa" />
 
 
