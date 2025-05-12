@@ -104,3 +104,11 @@ This section visually walks you through how to use the Task Tracker API — from
 <img width="526" alt="4" src="https://github.com/user-attachments/assets/c670cdf3-e9a1-4df4-861c-731c337b6baa" />
 
 
+## 🔹 Step 3: Get the Created User
+ - Go to /users/{user_id} GET endpoint.
+ - Enter the same user_id.
+ - You will see the user_name and email returned.
+
+#### GetUser
+
+<img width="530" alt="5" src="https://github.com/user-attachments/assets/c90f61ba-6b8e-4217-b561-073cf3ce2856" />
