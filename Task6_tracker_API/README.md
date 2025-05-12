@@ -185,7 +185,8 @@ All this can be done through the intuitive Swagger UI at http://127.0.0.1:8000/d
 
 🎯 Whether you're building a personal to-do app or a small team project manager, this API is your foundation for structured task management.
 
-## *Happy Tracking!* 🎯
+
+*Happy Tracking!* 🎯
 
 
 
