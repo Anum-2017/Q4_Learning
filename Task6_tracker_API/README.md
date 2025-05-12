@@ -40,8 +40,6 @@ This API helps you manage users and their assigned tasks with clean, simple endp
 - **StatusUpdateModel**  
   - For modifying only the `status` of an existing task
 
----
-
 ### 🔹 2. In-Memory Storage
 
 - `USERS`: Stores all users as key-value pairs using `user_id`
@@ -51,10 +49,7 @@ This API helps you manage users and their assigned tasks with clean, simple endp
   - `in_progress`
   - `completed`
 
----
-
 ### 🔹 3. Endpoints
-
 
 | HTTP Method | Route                        | Description                              |
 |-------------|------------------------------|------------------------------------------|
@@ -65,6 +60,7 @@ This API helps you manage users and their assigned tasks with clean, simple endp
 | GET         | `/tasks/{task_id}`           | Fetch a task using its ID                |
 | PUT         | `/tasks/{task_id}`           | Update the status of a task              |
 | GET         | `/users/{user_id}/tasks`     | List all tasks assigned to a user        |
+
 
 ---
 
