@@ -78,10 +78,6 @@ This section visually walks you through how to use the Task Tracker API — from
 - Go to the root `/` GET endpoint
 - You will receive a welcome message confirming that the API is running:
 
-```json
-{
-  "message": "Welcome to the Task Tracker API. This API allows you to manage users and tasks efficiently."
-}
 ```
 📝 Welcome Message
 
