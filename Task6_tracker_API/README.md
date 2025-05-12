@@ -56,7 +56,7 @@ This API helps you manage users and their assigned tasks with clean, simple endp
 
 ### 🔹 3. Endpoints
 
-|-------------|------------------------------|------------------------------------------|
+
 | HTTP Method | Route                        | Description                              |
 |-------------|------------------------------|------------------------------------------|
 | GET         | `/`                          | Returns a welcome message                |
@@ -66,4 +66,4 @@ This API helps you manage users and their assigned tasks with clean, simple endp
 | GET         | `/tasks/{task_id}`           | Fetch a task using its ID                |
 | PUT         | `/tasks/{task_id}`           | Update the status of a task              |
 | GET         | `/users/{user_id}/tasks`     | List all tasks assigned to a user        |
-|-------------|------------------------------|------------------------------------------|
+
