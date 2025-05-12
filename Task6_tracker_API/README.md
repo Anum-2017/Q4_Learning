@@ -78,8 +78,7 @@ This section visually walks you through how to use the Task Tracker API — from
 - Go to the root `/` GET endpoint
 - You will receive a welcome message confirming that the API is running:
 
-```
-📝 Welcome Message
+#### 📝 Welcome Message
 
 <img width="586" alt="1" src="https://github.com/user-attachments/assets/615d909d-d9b9-44ff-b26d-99a7388cdda9" />
 
