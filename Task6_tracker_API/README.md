@@ -90,7 +90,7 @@ This section visually walks you through how to use the Task Tracker API — from
 <img width="959" alt="2" src="https://github.com/user-attachments/assets/c9b47c2b-3c0b-46f4-b840-be172ba73489" />
 
 
-## 🔹 Step 1: Create a User
+## 🔹 Step 2: Create a User
  - Go to /users/ POST endpoint in Swagger UI (/docs)
  - Provide user_name and email
  - A new user_id will be generated
@@ -112,3 +112,27 @@ This section visually walks you through how to use the Task Tracker API — from
 #### GetUser
 
 <img width="530" alt="5" src="https://github.com/user-attachments/assets/c90f61ba-6b8e-4217-b561-073cf3ce2856" />
+
+
+## 🔹 Step 4: Add a New Task
+ - Head over to the /tasks/ POST endpoint using the Swagger UI.
+ - Enter the following details to create a task:
+     - title: The name of the task
+     - description (optional): What the task is about
+     - due_date: When the task should be completed (today or later)
+     - user_id: The ID of the user the task belongs to
+     - status: Current state of the task (e.g., pending)
+ - Once submitted, a new task_id will be automatically generated for you.
+
+#### Task_Creation
+
+<img width="529" alt="6" src="https://github.com/user-attachments/assets/7a671b80-38f1-4199-b7d6-1f75e3573c5d" />
+
+#### Response_Task_Creation
+
+<img width="526" alt="7" src="https://github.com/user-attachments/assets/cede6d9a-f7be-43a0-9eef-956ca5b4a28e" />
+
+
+
+
+
