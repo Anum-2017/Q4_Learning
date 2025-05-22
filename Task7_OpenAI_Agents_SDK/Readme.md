@@ -1,6 +1,6 @@
 # OpenAI Agent SDK — Build Intelligent Modular AI Agents
 
-Welcome to the OpenAI Agent SDK — a powerful toolkit designed for developers to build smart, reusable, and interactive AI agents. These agents go beyond simple chatbots by maintaining context, using tools, and collaborating with other agents or users to perform complex tasks.
+Welcome to the **OpenAI Agent SDK** — a powerful toolkit designed for developers to build smart, reusable, and interactive AI agents. These agents go beyond simple chatbots by maintaining context, using tools, and collaborating with other agents or users to perform complex tasks.
 
 ---
 
