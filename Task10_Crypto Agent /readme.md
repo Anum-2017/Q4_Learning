@@ -48,7 +48,7 @@ Your personal assistant for real-time cryptocurrency insights. Just ask about an
 
 📌 **Handles:**
 
-/help command to show supported instructions
+`/help` command to show supported instructions
 
 🪙 Coin detection + 💵 price fetching
 
