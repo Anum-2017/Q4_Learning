@@ -1,6 +1,6 @@
 # 🚀 Crypto Agent – Powered by OpenAI Agent SDK
 
-### Your personal assistant for real-time cryptocurrency insights. Just ask about any major coin and get live updates!
+Your personal assistant for real-time cryptocurrency insights. Just ask about any major coin and get live updates!
 
 # ✅ Available Tools (Functions)
 
