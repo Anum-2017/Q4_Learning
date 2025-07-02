@@ -6,7 +6,7 @@ Your personal assistant for real-time cryptocurrency insights. Just ask about an
 
 # ✅ Available Tools (Functions)
 
-### 1. detect_all_coins(user_input: str) → list[str]
+### 1. `detect_all_coins(user_input: str) → list[str]`
 
 🔎 **Purpose:** Parses user input and detects supported cryptocurrency symbols (e.g., BTC, ETH, DOGE).
 
@@ -16,7 +16,7 @@ Your personal assistant for real-time cryptocurrency insights. Just ask about an
 
 ---
 
-### 2. fetch_price(symbol: str) → str
+### 2. `fetch_price(symbol: str) → str`
 
 📊 **Purpose:** Fetches current price data for a specific cryptocurrency from CoinLore API.
 
@@ -32,7 +32,7 @@ Your personal assistant for real-time cryptocurrency insights. Just ask about an
 
 ---
 
-### 3. @agent.on_chat_start
+### 3. `@agent.on_chat_start`
 
 **Purpose:** Sends a warm welcome message and basic usage instructions when the chat begins.
 
@@ -42,7 +42,7 @@ Your personal assistant for real-time cryptocurrency insights. Just ask about an
 
 ---
 
-### 4. @agent.on_message
+### 4. `@agent.on_message`
 
 **Purpose:** Handles incoming user messages and responds with real-time crypto data or help instructions.
 
