@@ -25,9 +25,13 @@ Your personal assistant for real-time cryptocurrency insights. Just ask about an
 📈 **Output:** A formatted string with:
 
     - 💰 Current USD price
+    
     - 📉 24h change and trend
+    
     - 🔺 Estimated high / 🔻 low
+    
     - 💼 Market cap
+    
     - 🕒 Last updated time
 
 ---
