@@ -8,26 +8,28 @@ Your personal assistant for real-time cryptocurrency insights. Just ask about an
 
 ### 1. detect_all_coins(user_input: str) → list[str]
 
-**Purpose:** Parses user input and detects supported cryptocurrency symbols (e.g., BTC, ETH, DOGE).
+🔎 **Purpose:** Parses user input and detects supported cryptocurrency symbols (e.g., BTC, ETH, DOGE).
 
-**Input:** Natural language (e.g., "What's the price of Bitcoin and Solana?")
+🗣️ **Input:** Natural language (e.g., "What's the price of Bitcoin and Solana?")
 
-**Output:** List of coin symbols found in input (e.g., ["BTC", "SOL"])
+📤 **Output:** List of coin symbols found in input (e.g., ["BTC", "SOL"])
 
 ---
 
 ### 2. fetch_price(symbol: str) → str
 
-**Purpose:** Fetches current price data for a specific cryptocurrency from CoinLore API.
+📊 **Purpose:** Fetches current price data for a specific cryptocurrency from CoinLore API.
 
-**Input:** A valid coin symbol (e.g., "ETH")
+🔡 **Input:** A valid coin symbol (e.g., "ETH")
 
-**Output:** A formatted string with:
-Current USD price
-24h change and trend 📈📉
-Estimated high/low
-Market cap 💼
-Last updated time 🕒
+📈 **Output:** A formatted string with:
+                 - 💰 Current USD price
+                 - 📉 24h change and trend
+                 - 🔺 Estimated high / 🔻 low
+                 - 💼 Market cap
+                 - 🕒 Last updated time
+
+
 
 ---
 
