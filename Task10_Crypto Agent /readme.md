@@ -34,22 +34,25 @@ Your personal assistant for real-time cryptocurrency insights. Just ask about an
 
 ### 3. `@agent.on_chat_start`
 
-**Purpose:** Sends a warm welcome message and basic usage instructions when the chat begins.
+🚪 **Purpose:** Sends a warm welcome message and basic usage instructions when the chat begins.
 
-**Triggered:** Automatically on session start
+⚡ **Triggered:** Automatically on session start
 
-**Output:** Welcome + usage examples
+💬 **Output:** Welcome message + usage examples
 
 ---
 
 ### 4. `@agent.on_message`
 
-**Purpose:** Handles incoming user messages and responds with real-time crypto data or help instructions.
+🧠 **Purpose:** Handles incoming user messages and responds with real-time crypto data or help instructions.
 
-**Handles:**
+📌 **Handles:**
+
 /help command to show supported instructions
-Coin detection and price fetch
-Fallback reply for unsupported coins
+
+🪙 Coin detection + 💵 price fetching
+
+🛑 Fallback reply for unsupported coins
 
 ---
 
