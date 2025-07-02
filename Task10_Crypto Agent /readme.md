@@ -2,6 +2,8 @@
 
 Your personal assistant for real-time cryptocurrency insights. Just ask about any major coin and get live updates!
 
+--
+
 # ✅ Available Tools (Functions)
 
 ### 1. detect_all_coins(user_input: str) → list[str]
